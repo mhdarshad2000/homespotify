@@ -1,0 +1,294 @@
+body{
+    margin: 0;
+    
+}.container{
+    margin: 0;
+    font-family: "spotify-Circular, Helvetica, Arial, sans-serif";
+}
+.header{
+    
+    height: 80px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    
+    
+}
+.left-header{
+    background-color: black;
+    flex: 1;
+    align-items: center;
+}
+.logo{
+    padding: center;
+    color: white;
+    height: 90%;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.right-header{
+flex: 4;
+display: flex;
+background-color: black;
+justify-content: right;
+column-gap: 36px;
+padding-right: 80px;
+align-items: center;
+color: white;
+
+
+}
+.right-header :hover{
+    color: green;
+}
+
+.right-header a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.img{
+    height: 60px;
+    width: 55px;
+    margin-left: 25px;
+    
+}
+.main{
+    background-color: #993399;
+    color: white;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    row-gap: 35px;
+    padding: 30px 15px;
+    
+}
+.left-main{
+    flex: 6.5;
+    padding-left: 40px;
+   
+}
+#main-header{
+    
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 28;
+}
+#prem{
+    padding-top: 10px;
+    font-size: 65px;
+    letter-spacing: -3px;
+    font-weight: 700;
+    line-height: 60px;
+    
+}
+#adfree{
+    padding-top: 12px;
+    font-size: 27px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+#btn{
+    padding-top: 10px;
+    border-radius: 45px;
+    background-color: black;
+    color: white;
+    border: none;
+    height: 610;
+    font-size: medium;
+    padding: 15px  20px;
+    
+}
+#btn:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+    transition: 0.5s;
+}
+#plan{
+    padding-top: 20px;
+    font-size: small;
+    text-align: left;
+}
+.right-main{
+    flex: 4;
+    
+}
+#img-main{
+    width: 10cm;
+    height: 11cm;
+    margin-right: 0%;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+p a{
+    color: white;
+}
+.blue{
+    background-color: #2a42ad;
+    height:550px;
+
+    position: relative;
+    background-image: url("background.png");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px;
+    color: #1ed760;
+}
+.blue h1{
+    padding-top: 10px;
+    font-size: 65px;
+    letter-spacing: -3px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.blue p{
+    padding-top: 10px;
+    font-size:25px;
+    letter-spacing: 28;
+    font-weight: medium;
+    padding-bottom: 20px;
+
+    
+}
+.blue button{
+    
+    border-radius: 45px;
+    background-color: #1ed760;
+    color: #2a42ad;
+    border: none;
+    height: 610;
+    font-size: medium;
+    padding: 15px  20px;
+}
+.blue button:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+    transition: 0.5s;
+}
+.tail{
+    height: 500px;
+    padding-top: 4cm;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    justify-content: center;
+}
+.upper{
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+}
+.logo1 {
+    margin-top: -40px;
+    padding: center;
+    color: white;
+    height: 90%;
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.logo1 a{
+    text-decoration: none;
+    color: white;
+}
+.foot-middle{
+    flex: 3;
+    background-color: black;
+    
+}
+table{
+    
+    background-color: black;
+    color: white;
+    padding-left: 40px;
+    padding-right: 33px;
+    text-align: left;
+    width: 100%;
+}
+th{
+    color: #919496;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+td a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 330;
+    line-height: 35px;
+}
+td a:hover{
+    color: #1ed760;
+}
+.foot-right{
+    flex: 1;
+    
+    display: flex;
+    justify-content: right;
+    padding-right: 40px;
+}
+.foot-right img{
+    width: 75px;
+    height: 75px;
+    padding-right: 45px;
+}
+.downer{
+    width: 100%;
+    flex: 1;
+    background-color: black;
+    display: flex;
+
+}
+.left-down{
+    flex: 3;
+    
+}
+.right-down{
+    flex: 1;
+    color: #919496;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+ul{
+    display: flex;
+    column-gap: 42px;
+}
+ul li a{
+    text-decoration: none;
+    color: #919496;
+    font-size: 12px;
+}
+ul li a:hover{
+    color: #1ed760;
+}
+.lan{
+    display: flex;
+}
+.lan p a{
+    text-decoration: none;
+    color: #919496;
+}
+.lan p a:hover{
+    color: #1ed760;
+}
+.copy::before{
+    padding-left: 12px;
+    content: "\00a9  2022 spotify AB";
+}
